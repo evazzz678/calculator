@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+
+<body>
+    <div class="container">
+        <h3>calculator</h3>
+        <input type="text" id="txt"/ disabled>
+        
+        <hr>
+        <div class="butt">
+            <button onclick="getNumber('7')" > 7</button>
+            <button onclick="getNumber('8')" id="btn"> 8 </button>
+            <button onclick="getNumber('9')"> 9</button>
+            <button class="aa" onclick="cl()">AC</button><br><br>
+
+            <button onclick="getNumber('4')"> 4 </button>
+            <button onclick="getNumber('5')"> 5 </button>
+            <button onclick="getNumber('6')" >6</button>
+            <button onclick="add('+')">+</button><br><br>
+
+            <button onclick="getNumber('1')">1</button>
+            <button onclick="getNumber('2')"> 2 </button>
+            <button onclick="getNumber('3')"> 3 </button>
+            <button class="aa"onclick="add('-')">-</button><br><br>
+
+            <button onclick="add('/')">/</button>
+            <button onclick = "add('*')">*</button>
+            <button onclick="result()">=</button>
+            <button onclick="getNumber('0')">0</button>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
